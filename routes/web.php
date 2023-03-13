@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+
+Route::get('/cadastro-filme', function() {
+    return view('cadastroFilme');
+});
+
